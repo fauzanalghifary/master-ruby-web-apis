@@ -6,6 +6,7 @@ GEM
     gyoku (1.4.0)
       builder (>= 2.1.2)
       rexml (~> 3.0)
+    multi_json (1.15.0)
     mustermann (3.0.3)
       ruby2_keywords (~> 0.0.1)
     rack (3.1.7)
@@ -22,6 +23,14 @@ GEM
       rack-protection (= 4.0.0)
       rack-session (>= 2.0.0, < 3)
       tilt (~> 2.0)
+    sinatra-contrib (4.0.0)
+      multi_json (>= 0.0.2)
+      mustermann (~> 3.0)
+      rack-protection (= 4.0.0)
+      sinatra (= 4.0.0)
+      tilt (~> 2.0)
+    sinatra-subdomain (0.4.0)
+      sinatra
     tilt (2.4.0)
 
 PLATFORMS
@@ -30,6 +39,8 @@ PLATFORMS
 DEPENDENCIES
   gyoku (~> 1.4)
   sinatra (~> 4.0)
+  sinatra-contrib (~> 4.0)
+  sinatra-subdomain (~> 0.4.0)
 
 BUNDLED WITH
    2.5.17
