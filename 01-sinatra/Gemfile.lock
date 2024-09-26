@@ -38,6 +38,7 @@ PLATFORMS
 
 DEPENDENCIES
   gyoku (~> 1.4)
+  rack (~> 3.1)
   sinatra (~> 4.0)
   sinatra-contrib (~> 4.0)
   sinatra-subdomain (~> 0.4.0)
