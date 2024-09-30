@@ -18,8 +18,7 @@ class BasePresenter
   class << self
     # Define an accessor for the class level instance
     # variable we created above
-    attr_accessor :relations, :sort_attributes,
-                  :filter_attributes, :build_attributes
+    attr_accessor :relations, :sort_attributes, :filter_attributes, :build_attributes
 
     # Create the actual class method that will
     # be used in the subclasses

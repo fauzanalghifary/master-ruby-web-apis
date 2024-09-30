@@ -10,7 +10,7 @@ class Sorter
 
   def sort
     return @scope unless @column && @direction
-
+    p  @presenter.sort_attributes
     # Valid column?
     error!('sort', @column) unless @presenter.sort_attributes.include?(@column)
 

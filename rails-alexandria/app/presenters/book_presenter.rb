@@ -5,6 +5,8 @@ class BookPresenter < BasePresenter
 
   sort_by       :id, :title, :released_on, :created_at, :updated_at
 
+  filter_by     :id, :title, :released_on, :created_at, :updated_at
+
   def cover
     @object.cover.url.to_s
   end
