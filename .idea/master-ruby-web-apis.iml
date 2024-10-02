@@ -69,6 +69,8 @@
     <orderEntry type="library" scope="PROVIDED" name="net-smtp (v0.5.0, asdf: 2.7.8) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="nio4r (v2.7.3, asdf: 2.7.8) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="nokogiri (v1.15.6, asdf: 2.7.8) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="pg (v1.5.8, asdf: 2.7.8) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="pg_search (v2.3.6, asdf: 2.7.8) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="public_suffix (v5.1.1, asdf: 2.7.8) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="puma (v3.12.6, asdf: 2.7.8) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="racc (v1.8.1, asdf: 2.7.8) [gem]" level="application" />
@@ -94,7 +96,6 @@
     <orderEntry type="library" scope="PROVIDED" name="spring-watcher-listen (v2.0.1, asdf: 2.7.8) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="sprockets (v4.2.1, asdf: 2.7.8) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="sprockets-rails (v3.4.2, asdf: 2.7.8) [gem]" level="application" />
-    <orderEntry type="library" scope="PROVIDED" name="sqlite3 (v1.3.13, asdf: 2.7.8) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="ssrf_filter (v1.1.2, asdf: 2.7.8) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="thor (v1.3.2, asdf: 2.7.8) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="thread_safe (v0.3.6, asdf: 2.7.8) [gem]" level="application" />
