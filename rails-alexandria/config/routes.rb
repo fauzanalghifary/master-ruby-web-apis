@@ -14,6 +14,10 @@ Rails.application.routes.draw do
     resources :password_resets, only: [:show, :create, :update],
               param: :reset_token
 
+    resources :access_tokens, only: :create do
+      delete '/', action: :destroy, on: :collection
+    end
+
   end
 
   root to: 'books#index'
