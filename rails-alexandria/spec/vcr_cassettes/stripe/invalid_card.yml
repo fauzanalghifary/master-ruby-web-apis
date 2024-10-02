@@ -1,0 +1,74 @@
+---
+http_interactions:
+- request:
+    method: post
+    uri: https://api.stripe.com/v1/tokens
+    body:
+      encoding: UTF-8
+      string: card[number]=4000000000000002&card[exp_month]=6&card[exp_year]=2028&card[cvc]=314
+    headers:
+      User-Agent:
+      - Stripe/v1 RubyBindings/13.0.0
+      Authorization:
+      - Bearer YOUR_API_KEY
+      Idempotency-Key:
+      - b63f073d-0a9a-4301-96c5-2133287c8598
+      Stripe-Version:
+      - 2024-09-30.acacia
+      X-Stripe-Client-User-Agent:
+      - '{"bindings_version":"13.0.0","lang":"ruby","lang_version":"2.7.8 p225 (2023-03-30)","platform":"arm64-darwin23","engine":"ruby","publisher":"stripe","uname":"Darwin
+        Quippers-MacBook-Pro-2.local 23.1.0 Darwin Kernel Version 23.1.0: Mon Oct  9
+        21:28:12 PDT 2023; root:xnu-10002.41.9~6/RELEASE_ARM64_T8103 arm64","hostname":"Quippers-MacBook-Pro-2.local"}'
+      Content-Type:
+      - application/x-www-form-urlencoded
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 401
+      message: Unauthorized
+    headers:
+      Server:
+      - nginx
+      Date:
+      - Wed, 02 Oct 2024 07:58:13 GMT
+      Content-Type:
+      - application/json
+      Content-Length:
+      - '114'
+      Connection:
+      - keep-alive
+      Access-Control-Allow-Credentials:
+      - 'true'
+      Access-Control-Allow-Methods:
+      - GET,HEAD,PUT,PATCH,POST,DELETE
+      Access-Control-Allow-Origin:
+      - "*"
+      Access-Control-Expose-Headers:
+      - Request-Id, Stripe-Manage-Version, Stripe-Should-Retry, X-Stripe-External-Auth-Required,
+        X-Stripe-Privileged-Session-Required
+      Access-Control-Max-Age:
+      - '300'
+      Cache-Control:
+      - no-cache, no-store
+      Vary:
+      - Origin
+      Www-Authenticate:
+      - Bearer realm="Stripe"
+      X-Wc:
+      - A
+      Strict-Transport-Security:
+      - max-age=63072000; includeSubDomains; preload
+    body:
+      encoding: UTF-8
+      string: |
+        {
+          "error": {
+            "message": "Invalid API Key provided: YOUR_API_KEY",
+            "type": "invalid_request_error"
+          }
+        }
+  recorded_at: Wed, 02 Oct 2024 07:58:13 GMT
+recorded_with: VCR 6.3.1
