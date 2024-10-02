@@ -149,6 +149,8 @@ GEM
       activesupport (>= 5.2)
     public_suffix (5.1.1)
     puma (3.12.6)
+    pundit (2.4.0)
+      activesupport (>= 3.0.0)
     racc (1.8.1)
     rack (2.2.9)
     rack-test (2.1.0)
@@ -248,6 +250,7 @@ DEPENDENCIES
   pg
   pg_search
   puma (~> 3.11)
+  pundit
   rails (= 5.2.0)
   rspec-rails
   shoulda-matchers
