@@ -74,6 +74,7 @@
     <orderEntry type="library" scope="PROVIDED" name="pg_search (v2.3.6, asdf: 2.7.8) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="public_suffix (v5.1.1, asdf: 2.7.8) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="puma (v3.12.6, asdf: 2.7.8) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="pundit (v2.4.0, asdf: 2.7.8) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="racc (v1.8.1, asdf: 2.7.8) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="rack (v2.2.9, asdf: 2.7.8) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="rack-test (v2.1.0, asdf: 2.7.8) [gem]" level="application" />
