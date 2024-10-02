@@ -82,6 +82,7 @@
     <orderEntry type="library" scope="PROVIDED" name="pundit (v2.4.0, asdf: 2.7.8) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="racc (v1.8.1, asdf: 2.7.8) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="rack (v2.2.9, asdf: 2.7.8) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="rack-cors (v1.1.1, asdf: 2.7.8) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="rack-test (v2.1.0, asdf: 2.7.8) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="rails (v5.2.0, asdf: 2.7.8) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="rails-dom-testing (v2.2.0, asdf: 2.7.8) [gem]" level="application" />
